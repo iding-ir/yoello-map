@@ -4,7 +4,6 @@ import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import { MapContainer } from "../Map";
 import { Header } from "../Header";
 import { Sidebar } from "../Sidebar";
-import { LocationPicker } from "../Map";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -25,9 +24,7 @@ export const App = () => {
 
       <Header />
 
-      <MapContainer>
-        <LocationPicker />
-      </MapContainer>
+      <MapContainer />
     </div>
   );
 };
