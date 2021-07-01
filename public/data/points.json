@@ -1,0 +1,1615 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "bar",
+        "menu": ["burger", "wine", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.155994415283203, 51.47988619641402]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "cafe",
+        "menu": ["pizza", "beer", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.188610076904297, 51.48277264468708]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1997680664062496, 51.48993452350154]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "hotel",
+        "menu": ["burger", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1664657592773438, 51.49795021767351]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "pub",
+        "menu": ["kebab", "pasta", "wine", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.192214965820312, 51.46898018751687]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "bar",
+        "menu": ["pizza", "beer", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2062911987304688, 51.49036206277271]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "pub",
+        "menu": ["sushi", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.187408447265625, 51.50938350161162]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "cafe",
+        "menu": ["burger", "beer", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1920433044433594, 51.50767403407925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "hotel",
+        "menu": ["pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1875801086425777, 51.48811743686986]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "wine", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.217449188232422, 51.49698840879303]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "hotel",
+        "menu": ["sushi", "beer", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2104110717773438, 51.485445119088524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1810569763183594, 51.501262959578035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.217620849609375, 51.51889124411907]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "pub",
+        "menu": ["burger", "wine", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.200283050537109, 51.51248174803477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1891250610351562, 51.520707104039275]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "pasta", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1606292724609375, 51.51280224425956]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1553077697753906, 51.49196529933168]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "hotel",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1673240661621094, 51.469194055890355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "wine", "beer", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1666374206542964, 51.4655581571998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1839752197265625, 51.465130385364795]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1839752197265625, 51.45967594295107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "hotel",
+        "menu": ["kebab", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.19101333618164, 51.45678803304111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2090377807617183, 51.479137828151224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "pub",
+        "menu": ["burger", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.191699981689453, 51.47657190088194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "wine", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1686973571777344, 51.490041408695205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "hotel",
+        "menu": ["pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1841468811035156, 51.4964540617562]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "beer", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1788253784179683, 51.49228593987783]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2049179077148438, 51.499660050014434]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "wine", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.139514923095703, 51.48576580549173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "cafe",
+        "menu": ["sushi", "pasta", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1539344787597656, 51.48758298584306]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "pub",
+        "menu": ["kebab", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1532478332519527, 51.4738989064778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "hotel",
+        "menu": ["kebab", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1817436218261714, 51.49314097030879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.185863494873047, 51.48405545194617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1934165954589844, 51.492499698989036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "wine", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1963348388671875, 51.489720752362466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2071495056152344, 51.46962178962983]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "pasta", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.219509124755859, 51.48587270045831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "hotel",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.212299346923828, 51.52562024435108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "water", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1934165954589844, 51.530426064343594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.192901611328125, 51.52786302347514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.159770965576172, 51.526795047194035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "cafe",
+        "menu": ["sushi", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.146381378173828, 51.51953214412288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "hotel",
+        "menu": ["burger", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1386566162109375, 51.51023821132552]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1293869018554683, 51.5116270804117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "wine", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1635475158691406, 51.50692612186484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1649208068847656, 51.5189980614127]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "pub",
+        "menu": ["burger", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.176250457763672, 51.51835715389314]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "cafe",
+        "menu": ["sushi", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1870651245117188, 51.5199594057816]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "hotel",
+        "menu": ["pizza", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1359100341796875, 51.48501753370923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "wine", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1678390502929688, 51.478817095136684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.176593780517578, 51.48565891027458]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.208179473876953, 51.50681927626061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "cafe",
+        "menu": ["sushi", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.222427368164062, 51.50649873794456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2169342041015625, 51.514084206610455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "hotel",
+        "menu": ["burger", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1853485107421875, 51.51515248101072]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "pub",
+        "menu": ["sushi", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1757354736328125, 51.51440469156112]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "bar",
+        "menu": ["burger", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2006263732910156, 51.51718213334982]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.161144256591797, 51.49346160258588]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "bar",
+        "menu": ["sushi", "kebab", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.176593780517578, 51.4747542817288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "hotel",
+        "menu": ["burger", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.216075897216797, 51.504575460694184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.142776489257812, 51.49549222130398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "cafe",
+        "menu": ["sushi", "beer", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1403732299804688, 51.48373475351443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "bar",
+        "menu": ["kebab", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1475830078125, 51.479137828151224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.16131591796875, 51.486941636341456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "pasta", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.168182373046875, 51.486941636341456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "cafe",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1714439392089844, 51.49933946133652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "hotel",
+        "menu": ["sushi", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1621742248535156, 51.50468231156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "pub",
+        "menu": ["sushi", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1949615478515625, 51.49955318737237]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "bar",
+        "menu": ["burger", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1453514099121094, 51.51066556016948]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "cafe",
+        "menu": ["pizza", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.151874542236328, 51.51344322994464]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "wine", "beer", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1527328491210938, 51.51248174803477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "pub",
+        "menu": ["sushi", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.186206817626953, 51.50863561745838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "hotel",
+        "menu": ["kebab", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.159084320068359, 51.49420973579561]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2117843627929688, 51.50404120260676]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "bar",
+        "menu": ["kebab", "pasta", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.194446563720703, 51.51739577570335]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2035446166992188, 51.525193035801976]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1511878967285156, 51.47315043997589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "bar",
+        "menu": ["kebab", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.190155029296875, 51.46833857638139]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "hotel",
+        "menu": ["sushi", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.205089569091797, 51.46898018751687]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "cafe",
+        "menu": ["burger", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2071495056152344, 51.48063455239723]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2193374633789062, 51.48352095330697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "pub",
+        "menu": ["kebab", "wine", "beer", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2277488708496094, 51.49378223260778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.150501251220703, 51.50713981232172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "hotel",
+        "menu": ["sushi", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2097244262695312, 51.51429786349477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "bar",
+        "menu": ["pizza", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1474113464355464, 51.526795047194035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1678390502929688, 51.512588580360244]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.17230224609375, 51.508742458803326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1745338439941406, 51.50639189133809]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "bar",
+        "menu": ["sushi", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1815719604492188, 51.51045188624856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1783103942871094, 51.50991769706187]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1728172302246094, 51.494744109142474]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "hotel",
+        "menu": ["kebab", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1534194946289062, 51.49901887040353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "beer", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.121833801269531, 51.5089561407416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "pub",
+        "menu": ["sushi", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.177967071533203, 51.53864817973767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "bar",
+        "menu": ["pizza", "pasta", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.204059600830078, 51.53202789161459]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1822586059570312, 51.526261049659425]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "restaurant",
+        "menu": ["kebab", "water", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2184791564941406, 51.52700864445432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "pub",
+        "menu": ["kebab", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.231182098388672, 51.51750259650432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "cafe",
+        "menu": ["kebab", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2450866699218746, 51.50617819737355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "hotel",
+        "menu": ["pizza", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.241138458251953, 51.49282033577651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "restaurant",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.239765167236328, 51.48640717153224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "pub",
+        "menu": ["sushi", "wine", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.142261505126953, 51.47133268448804]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "hotel",
+        "menu": ["kebab", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1475830078125, 51.46224282058793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "cafe",
+        "menu": ["burger", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1566810607910156, 51.46181501767409]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "pub",
+        "menu": ["pizza", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1565093994140625, 51.46801776743021]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "bar",
+        "menu": ["sushi", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.174190521240234, 51.46063853898319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/08.jpg",
+        "icon": "pub",
+        "menu": ["burger", "beer"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1853485107421875, 51.45486265825492]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/09.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "pasta"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1932449340820312, 51.46352620526822]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/01.jpg",
+        "icon": "restaurant",
+        "menu": ["sushi", "wine", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1566810607910156, 51.46641368883949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/02.jpg",
+        "icon": "pub",
+        "menu": ["burger", "coke"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1451797485351562, 51.46545121461699]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/03.jpg",
+        "icon": "bar",
+        "menu": ["kebab"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1740188598632812, 51.4810621788744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/04.jpg",
+        "icon": "cafe",
+        "menu": ["pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2026863098144527, 51.48213122752529]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/05.jpg",
+        "icon": "hotel",
+        "menu": ["sushi", "pasta", "wine"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1757354736328125, 51.48662095820769]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/06.jpg",
+        "icon": "restaurant",
+        "menu": ["pizza", "beer", "water"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1537628173828125, 51.48373475351443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Mill Lane",
+        "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
+        "image": "/assets/images/points/07.jpg",
+        "icon": "cafe",
+        "menu": ["burger", "pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.1635475158691406, 51.480206921910444]
+      }
+    }
+  ]
+}
