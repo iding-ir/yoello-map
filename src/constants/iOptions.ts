@@ -80,7 +80,7 @@ export const iIcons: IIcons = {
 export const iDefaultIcon: IDefaultIcon = "default";
 
 export const iGeoJsons: IGeoJson = {
-  points: "/data/points.json",
+  places: "/data/places.json",
 };
 
 export const iLayers: ILayers = {

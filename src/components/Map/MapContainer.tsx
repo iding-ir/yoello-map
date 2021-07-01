@@ -74,22 +74,7 @@ export const MapContainer = (props: Props) => {
     setState({ ...state, map });
 
     if (map) {
-      map.on("click", "point-symbol-cats", (event: any) => {
-        let properties = event.features[0].properties;
-        let coordinates = event.features[0].geometry.coordinates.slice();
-
-        while (Math.abs(event.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += event.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-
-        openPopup({
-          map,
-          lnglat: coordinates,
-          content: <div>{properties.name}</div>,
-        });
-      });
-
-      map.on("click", "point-symbol-dogs", (event: any) => {
+      map.on("click", "point-symbol-places", (event: any) => {
         let properties = event.features[0].properties;
         let coordinates = event.features[0].geometry.coordinates.slice();
 
