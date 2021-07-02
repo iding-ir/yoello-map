@@ -167,12 +167,7 @@ export const Sidebar = () => {
       };
 
       renderGeoJsons(map, FiltteredGeoJsons);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [distanceState, pickedLocation]);
 
-  useEffect(() => {
-    if (map) {
       const filterType: any[] = types.reduce(
         (total: any, type: Type) => {
           return typeState[type.key]
@@ -197,7 +192,7 @@ export const Sidebar = () => {
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [typeState, menuState]);
+  }, [typeState, menuState, distanceState, pickedLocation]);
 
   const renderTypes = () => {
     return (
