@@ -1,6 +1,6 @@
 {
-  "name": "react-redux-Yoello-map",
-  "version": "0.7.0",
+  "name": "yoello-map",
+  "version": "1.0.0",
   "description": "React and redux Yoello map.",
   "keywords": [
     "React",
@@ -17,10 +17,10 @@
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iding-ir/react-redux-Yoello-map.git"
+    "url": "git+https://github.com/iding-ir/yoello-map.git"
   },
   "bugs": {
-    "url": "https://github.com/iding-ir/react-redux-Yoello-map/issues"
+    "url": "https://github.com/iding-ir/yoello-map/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",

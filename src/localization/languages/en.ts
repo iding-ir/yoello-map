@@ -1,6 +1,6 @@
 const localization = {
   header: {
-    title: "Starter map",
+    title: "Yeollo map",
   },
   sidebar: {
     about: "About us",
