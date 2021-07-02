@@ -6,14 +6,114 @@ import { useTranslation } from "react-i18next";
 import { Checkbox } from "@material-ui/core";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Typography from "@material-ui/core/Typography";
+import Autocomplete from "@material-ui/lab/Autocomplete";
+import TextField from "@material-ui/core/TextField";
 
 import { IState } from "../../reducers";
 import { closeSidebar } from "../../actions/sidebar";
 import { SIDEBAR_WIDTH } from "../../constants";
 import { StateContext } from "../../components/State";
 
+interface Type {
+  key: string;
+  label: string;
+  init: boolean;
+}
+
+interface Menu {
+  key: string;
+  label: string;
+  init: boolean;
+}
+
+const types: Type[] = [
+  {
+    key: "restaurant",
+    label: "Restaurant",
+    init: true,
+  },
+  {
+    key: "hotel",
+    label: "Hotel",
+    init: true,
+  },
+  {
+    key: "cafe",
+    label: "Cafe",
+    init: true,
+  },
+  {
+    key: "pub",
+    label: "Pub",
+    init: true,
+  },
+  {
+    key: "bar",
+    label: "Bar",
+    init: true,
+  },
+];
+
+const menus: Menu[] = [
+  {
+    key: "burger",
+    label: "Burger",
+    init: false,
+  },
+  {
+    key: "pasta",
+    label: "Pasta",
+    init: false,
+  },
+  {
+    key: "pizza",
+    label: "Pizza",
+    init: false,
+  },
+  {
+    key: "kebab",
+    label: "Kebab",
+    init: false,
+  },
+  {
+    key: "water",
+    label: "Water",
+    init: false,
+  },
+  {
+    key: "wine",
+    label: "Wine",
+    init: false,
+  },
+  {
+    key: "coke",
+    label: "Coke",
+    init: false,
+  },
+  {
+    key: "beer",
+    label: "Beer",
+    init: false,
+  },
+];
+
+const iType = types.reduce((total: any, type: Type) => {
+  return { ...total, [type.key]: type.init };
+}, {});
+
+const iMenu = menus.reduce((total: any, menu: Menu) => {
+  return { ...total, [menu.key]: menu.init };
+}, {});
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    menus: {
+      width: "100%",
+      "& > * + *": {
+        marginTop: theme.spacing(3),
+      },
+    },
     list: {
       width: SIDEBAR_WIDTH,
     },
@@ -33,43 +133,98 @@ export const Sidebar = () => {
 
   const { map } = state;
 
-  const [type, setType] = useState({
-    restaurant: true,
-    hotel: true,
-    cafe: true,
-    pub: true,
-    bar: true,
-  });
+  const [typeState, setTypeState] = useState<{ [key: string]: boolean }>(iType);
+  const [menuState, setMenuState] = useState<{ [key: string]: boolean }>(iMenu);
 
   useEffect(() => {
     if (map) {
-      const filters: any[] = ["any"];
+      const filterType: any[] = types.reduce(
+        (total: any, type: Type) => {
+          return typeState[type.key]
+            ? [...total, ["==", ["get", "type"], type.key]]
+            : total;
+        },
+        ["any"]
+      );
 
-      if (type.restaurant) {
-        filters.push(["==", ["get", "type"], "restaurant"]);
-      }
+      const filterMenu: any[] = menus.reduce(
+        (total: any, menu: Menu) => {
+          return menuState[menu.key]
+            ? [...total, ["in", menu.key, ["get", "menu"]]]
+            : total;
+        },
+        ["all"]
+      );
 
-      if (type.hotel) {
-        filters.push(["==", ["get", "type"], "hotel"]);
-      }
-
-      if (type.cafe) {
-        filters.push(["==", ["get", "type"], "cafe"]);
-      }
-
-      if (type.pub) {
-        filters.push(["==", ["get", "type"], "pub"]);
-      }
-
-      if (type.bar) {
-        filters.push(["==", ["get", "type"], "bar"]);
-      }
+      const filters = ["all", filterType, filterMenu];
 
       map.setFilter("point-symbol-places", filters);
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [type]);
+  }, [typeState, menuState]);
+
+  const renderTypes = () => {
+    return (
+      <FormGroup row>
+        {types.map((type: Type) => {
+          return (
+            <FormControlLabel
+              control={
+                <Checkbox
+                  checked={typeState[type.key]}
+                  name={type.key}
+                  onChange={(event: ChangeEvent<HTMLInputElement>) => {
+                    setTypeState({
+                      ...typeState,
+                      [type.key]: !typeState[type.key],
+                    });
+                  }}
+                />
+              }
+              label={type.label}
+            />
+          );
+        })}
+      </FormGroup>
+    );
+  };
+
+  const renderMenus = () => {
+    return (
+      <FormGroup row>
+        <Autocomplete
+          className={classes.menus}
+          multiple
+          options={menus}
+          getOptionLabel={(option) => option.label}
+          defaultValue={menus.filter((menu: Menu) => {
+            return menuState[menu.key];
+          })}
+          onChange={(event: any, values: Menu[]) => {
+            const valuesKeys = values.map((menu: Menu) => menu.key);
+            const menusKeys = menus.map((menu: Menu) => menu.key);
+
+            const state = menusKeys.reduce((total: any, menu: string) => {
+              return valuesKeys.includes(menu)
+                ? { ...total, [menu]: true }
+                : { ...total, [menu]: false };
+            }, {});
+
+            setMenuState(state);
+          }}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              variant="standard"
+              label="Items"
+              placeholder="Search menus"
+            />
+          )}
+        />
+      </FormGroup>
+    );
+  };
 
   return (
     <Drawer
@@ -80,72 +235,19 @@ export const Sidebar = () => {
       }}
     >
       <div className={classes.list} role="presentation">
-        <FormGroup row>
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={type.restaurant}
-                onChange={(event: ChangeEvent<HTMLInputElement>) => {
-                  setType({ ...type, restaurant: !type.restaurant });
-                }}
-                name="restaurant"
-              />
-            }
-            label="Restaurant"
-          />
+        <Typography variant="h6" gutterBottom>
+          Type
+        </Typography>
 
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={type.hotel}
-                onChange={(event: ChangeEvent<HTMLInputElement>) => {
-                  setType({ ...type, hotel: !type.hotel });
-                }}
-                name="hotel"
-              />
-            }
-            label="Hotel"
-          />
+        {renderTypes()}
+      </div>
 
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={type.cafe}
-                onChange={(event: ChangeEvent<HTMLInputElement>) => {
-                  setType({ ...type, cafe: !type.cafe });
-                }}
-                name="cafe"
-              />
-            }
-            label="Cafe"
-          />
+      <div className={classes.list} role="presentation">
+        <Typography variant="h6" gutterBottom>
+          Menu
+        </Typography>
 
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={type.pub}
-                onChange={(event: ChangeEvent<HTMLInputElement>) => {
-                  setType({ ...type, pub: !type.pub });
-                }}
-                name="pub"
-              />
-            }
-            label="Pub"
-          />
-
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={type.bar}
-                onChange={(event: ChangeEvent<HTMLInputElement>) => {
-                  setType({ ...type, bar: !type.bar });
-                }}
-                name="bar"
-              />
-            }
-            label="Bar"
-          />
-        </FormGroup>
+        {renderMenus()}
       </div>
     </Drawer>
   );
