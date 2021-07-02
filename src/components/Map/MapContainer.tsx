@@ -101,7 +101,7 @@ export const MapContainer = (props: Props) => {
 
   const { openPopup } = usePopup();
 
-  const { map } = useMap();
+  const { map, geoJsons } = useMap();
 
   const renderPopup = (properties: any) => {
     return (
@@ -166,7 +166,7 @@ export const MapContainer = (props: Props) => {
   }, []);
 
   useEffect(() => {
-    setState({ ...state, map });
+    setState({ ...state, map, geoJsons });
 
     if (map) {
       map.on("click", "point-symbol-places", (event: any) => {

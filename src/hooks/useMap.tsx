@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import mapboxgl, { Map } from "mapbox-gl";
+import { FeatureCollection } from "geojson";
 
 import { loadIcons } from "../modules/loadIcons";
 import { buildMap } from "../modules/buildMap";
@@ -9,6 +10,7 @@ import * as iOptions from "../constants/iOptions";
 
 export const useMap = () => {
   const [map, setMap] = useState<Map>();
+  const [geoJsons, setGeoJsons] = useState<FeatureCollection>();
 
   useEffect(() => {
     mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN as string;
@@ -28,6 +30,8 @@ export const useMap = () => {
     buildMap(map).then(() => {
       loadIcons(map).then(() => {
         fetchGeoJsons(map).then((geoJsons) => {
+          setGeoJsons(geoJsons as FeatureCollection);
+
           renderGeoJsons(map, geoJsons).then(() => {
             setMap(map);
           });
@@ -38,5 +42,5 @@ export const useMap = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return { map };
+  return { map, geoJsons };
 };

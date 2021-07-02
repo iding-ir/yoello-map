@@ -9,11 +9,15 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Typography from "@material-ui/core/Typography";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import TextField from "@material-ui/core/TextField";
+import Slider from "@material-ui/core/Slider";
+import * as turf from "@turf/turf";
 
 import { IState } from "../../reducers";
 import { closeSidebar } from "../../actions/sidebar";
 import { SIDEBAR_WIDTH } from "../../constants";
 import { StateContext } from "../../components/State";
+import { LngLatLike } from "mapbox-gl";
+import { renderGeoJsons } from "../../modules/renderGeoJsons";
 
 interface Type {
   key: string;
@@ -106,6 +110,8 @@ const iMenu = menus.reduce((total: any, menu: Menu) => {
   return { ...total, [menu.key]: menu.init };
 }, {});
 
+const iDistance = 4000;
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     menus: {
@@ -129,13 +135,41 @@ export const Sidebar = () => {
   const dispatch = useDispatch();
 
   const open = useSelector((state: IState) => state.sidebar.open);
+  const pickedLocation = useSelector(
+    (state: IState) => state.location.picked
+  ) as any;
 
   const { state, setState } = useContext(StateContext);
 
-  const { map } = state;
+  const { map, geoJsons } = state;
 
   const [typeState, setTypeState] = useState<{ [key: string]: boolean }>(iType);
   const [menuState, setMenuState] = useState<{ [key: string]: boolean }>(iMenu);
+  const [distanceState, setDistanceState] = useState<number | number[]>(
+    iDistance
+  );
+
+  useEffect(() => {
+    if (map) {
+      const features = geoJsons.places.features.filter((feature: any) => {
+        const distance = turf.distance(
+          feature.geometry.coordinates,
+          [pickedLocation.lng, pickedLocation.lat],
+          { units: "meters" }
+        );
+
+        return distance <= distanceState;
+      });
+
+      const FiltteredGeoJsons = {
+        ...geoJsons,
+        places: { ...geoJsons.places, features },
+      };
+
+      renderGeoJsons(map, FiltteredGeoJsons);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [distanceState, pickedLocation]);
 
   useEffect(() => {
     if (map) {
@@ -227,6 +261,24 @@ export const Sidebar = () => {
     );
   };
 
+  const renderDistance = () => {
+    return (
+      <Slider
+        defaultValue={distanceState}
+        getAriaValueText={(value: number) => `${value}m`}
+        aria-labelledby="distance-slider"
+        valueLabelDisplay="auto"
+        onChange={(event: any, value: number | number[]) => {
+          setDistanceState(value);
+        }}
+        step={200}
+        marks
+        min={200}
+        max={4000}
+      />
+    );
+  };
+
   return (
     <Drawer
       anchor="left"
@@ -241,6 +293,14 @@ export const Sidebar = () => {
         </Typography>
 
         {renderTypes()}
+      </div>
+
+      <div className={classes.list} role="presentation">
+        <Typography variant="h6" gutterBottom>
+          Distance
+        </Typography>
+
+        {renderDistance()}
       </div>
 
       <div className={classes.list} role="presentation">

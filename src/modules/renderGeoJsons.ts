@@ -25,7 +25,11 @@ export const prepareLayers = (map: Map, suffix: string) => {
 
       layers[featureKey][typeKey] = layer;
 
-      if (map.getLayer(layer)) map.removeLayer(layer);
+      if (map.getLayer(layer)) {
+        console.log(layer);
+
+        map.removeLayer(layer);
+      }
     }
   }
 
@@ -45,10 +49,10 @@ export const makeLayerInteractive = (map: Map, layer: any) => {
 export const renderGeoJsons = (map: Map, geoJsons: any) => {
   return new Promise((resolve, reject) => {
     for (let key in iOptions.iGeoJsons) {
-      const value = iOptions.iGeoJsons[key];
+      const value = geoJsons[key];
 
-      const source = prepareSource(map, key);
       const layers = prepareLayers(map, key);
+      const source = prepareSource(map, key);
 
       const primaryColor =
         iOptions.iFeatureColors[iOptions.iDefaultStyle].primary;
