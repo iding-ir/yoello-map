@@ -14,13 +14,10 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import Typography from "@material-ui/core/Typography";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
+import CardHeader from "@material-ui/core/CardHeader";
 
 import { StateContext } from "../State";
 import { useMap } from "../../hooks/useMap";
@@ -43,9 +40,23 @@ const useStyles = makeStyles((theme: Theme) =>
     card: {
       flexDirection: "column",
     },
+    content: {
+      padding: "0",
+      paddingBottom: "0 !important",
+    },
     media: {
-      height: "200px",
-      width: "300px",
+      height: "160px",
+      width: "240px",
+    },
+    expand: {
+      transform: "rotate(0deg)",
+      marginLeft: "auto",
+      transition: theme.transitions.create("transform", {
+        duration: theme.transitions.duration.shortest,
+      }),
+    },
+    expandOpen: {
+      transform: "rotate(180deg)",
     },
   })
 );
@@ -92,6 +103,40 @@ export const MapContainer = (props: Props) => {
 
   const { map } = useMap();
 
+  const renderPopup = (properties: any) => {
+    return (
+      <Card>
+        <CardMedia
+          image={properties.image}
+          title={properties.name}
+          className={classes.media}
+        />
+
+        <CardHeader title={properties.name} />
+
+        <CardContent className={classes.content}>
+          <TableContainer>
+            <Table className={classes.table} aria-label={properties.name}>
+              <TableHead>
+                <StyledTableRow>
+                  <StyledTableCell>Menu</StyledTableCell>
+                </StyledTableRow>
+              </TableHead>
+
+              <TableBody>
+                {JSON.parse(properties.menu).map((item: string) => (
+                  <StyledTableRow key={item}>
+                    <StyledTableCell align="left">{item}</StyledTableCell>
+                  </StyledTableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </CardContent>
+      </Card>
+    );
+  };
+
   useEffect(() => {
     getLocation()
       .then((p: unknown) => {
@@ -135,50 +180,7 @@ export const MapContainer = (props: Props) => {
         openPopup({
           map,
           lnglat: coordinates,
-          content: (
-            <>
-              <CardActions className={classes.card}>
-                <CardActionArea>
-                  <CardMedia
-                    image={properties.image}
-                    title={properties.name}
-                    className={classes.media}
-                  />
-
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {properties.name}
-                    </Typography>
-
-                    <TableContainer>
-                      <Table
-                        className={classes.table}
-                        aria-label={properties.name}
-                      >
-                        <TableHead>
-                          <StyledTableRow>
-                            <StyledTableCell>Menu</StyledTableCell>
-                          </StyledTableRow>
-                        </TableHead>
-
-                        <TableBody>
-                          {JSON.parse(properties.menu).map((item: string) => (
-                            <StyledTableRow key={item}>
-                              <StyledTableCell align="left">
-                                {item}
-                              </StyledTableCell>
-                            </StyledTableRow>
-                          ))}
-                        </TableBody>
-                      </Table>
-                    </TableContainer>
-                  </CardContent>
-                </CardActionArea>
-
-                <CardActions></CardActions>
-              </CardActions>
-            </>
-          ),
+          content: renderPopup(properties),
         });
       });
     }

@@ -116,6 +116,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     list: {
       width: SIDEBAR_WIDTH,
+      padding: "1rem",
     },
   })
 );
