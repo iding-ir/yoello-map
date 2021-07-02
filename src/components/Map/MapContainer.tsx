@@ -1,8 +1,26 @@
 import React, { useEffect, useContext, ReactNode } from "react";
 import { useDispatch } from "react-redux";
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import {
+  withStyles,
+  Theme,
+  createStyles,
+  makeStyles,
+} from "@material-ui/core/styles";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { useTranslation } from "react-i18next";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableContainer from "@material-ui/core/TableContainer";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Typography from "@material-ui/core/Typography";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
 
 import { StateContext } from "../State";
 import { useMap } from "../../hooks/useMap";
@@ -19,8 +37,40 @@ const useStyles = makeStyles((theme: Theme) =>
       height: "100%",
       flexGrow: 1,
     },
+    table: {
+      width: "100%",
+    },
+    card: {
+      flexDirection: "column",
+    },
+    media: {
+      height: "200px",
+      width: "300px",
+    },
   })
 );
+
+const StyledTableCell = withStyles((theme: Theme) =>
+  createStyles({
+    head: {
+      backgroundColor: theme.palette.common.black,
+      color: theme.palette.common.white,
+    },
+    body: {
+      fontSize: 14,
+    },
+  })
+)(TableCell);
+
+const StyledTableRow = withStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      "&:nth-of-type(odd)": {
+        backgroundColor: theme.palette.action.hover,
+      },
+    },
+  })
+)(TableRow);
 
 interface Props {
   children?: ReactNode;
@@ -85,7 +135,50 @@ export const MapContainer = (props: Props) => {
         openPopup({
           map,
           lnglat: coordinates,
-          content: <div>{properties.name}</div>,
+          content: (
+            <>
+              <CardActions className={classes.card}>
+                <CardActionArea>
+                  <CardMedia
+                    image={properties.image}
+                    title={properties.name}
+                    className={classes.media}
+                  />
+
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      {properties.name}
+                    </Typography>
+
+                    <TableContainer>
+                      <Table
+                        className={classes.table}
+                        aria-label={properties.name}
+                      >
+                        <TableHead>
+                          <StyledTableRow>
+                            <StyledTableCell>Menu</StyledTableCell>
+                          </StyledTableRow>
+                        </TableHead>
+
+                        <TableBody>
+                          {JSON.parse(properties.menu).map((item: string) => (
+                            <StyledTableRow key={item}>
+                              <StyledTableCell align="left">
+                                {item}
+                              </StyledTableCell>
+                            </StyledTableRow>
+                          ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </CardContent>
+                </CardActionArea>
+
+                <CardActions></CardActions>
+              </CardActions>
+            </>
+          ),
         });
       });
     }
