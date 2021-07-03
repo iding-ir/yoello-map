@@ -20,6 +20,7 @@ import { closeSidebar } from "../../actions/sidebar";
 import { SIDEBAR_WIDTH } from "../../constants";
 import { StateContext } from "../../components/State";
 import { renderGeoJsons } from "../../modules/renderGeoJsons";
+import { ReactComponent as Logo } from "../../assets/images/yoello-logo.svg";
 import { ReactComponent as Text } from "../../assets/images/yoello-text.svg";
 import { SnackbarContext } from "../Snackbar/SnackbarProvider";
 
@@ -140,9 +141,14 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: "1rem",
       display: "flex",
     },
+    logo: {
+      width: "40px",
+      height: "40px",
+    },
     text: {
       width: "auto",
       height: "40px",
+      margin: "0 1.5rem",
     },
     sidebar: {
       "&>*": {
@@ -353,6 +359,8 @@ export const Sidebar = () => {
       }}
     >
       <div className={classes.header}>
+        <Logo className={classes.logo} />
+
         <Text className={classes.text} />
       </div>
 
