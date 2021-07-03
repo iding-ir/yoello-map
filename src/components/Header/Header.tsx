@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useTranslation } from "react-i18next";
+import { ReactComponent as Logo } from "../../assets/images/yoello-logo.svg";
 
 import { openSidebar } from "../../actions/sidebar";
 
@@ -17,6 +18,10 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     title: {
       flexGrow: 1,
+    },
+    logo: {
+      width: "40px",
+      height: "40px",
     },
   })
 );
@@ -45,9 +50,7 @@ export const Header = () => {
           <MenuIcon />
         </IconButton>
 
-        <Typography variant="h6" className={classes.title}>
-          {t("header.title")}
-        </Typography>
+        <Logo className={classes.logo} />
       </Toolbar>
     </AppBar>
   );

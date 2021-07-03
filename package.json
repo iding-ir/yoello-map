@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@material-ui/lab": "^4.0.0-alpha.58",
+    "@svgr/webpack": "^5.5.0",
     "@turf/turf": "^6.4.0",
     "axios": "^0.21.1",
     "i18next": "^19.9.2",

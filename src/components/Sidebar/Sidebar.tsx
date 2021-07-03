@@ -18,6 +18,8 @@ import { SIDEBAR_WIDTH } from "../../constants";
 import { StateContext } from "../../components/State";
 import { LngLatLike } from "mapbox-gl";
 import { renderGeoJsons } from "../../modules/renderGeoJsons";
+import { ReactComponent as Logo } from "../../assets/images/yoello-logo.svg";
+import { ReactComponent as Text } from "../../assets/images/yoello-text.svg";
 
 interface Type {
   key: string;
@@ -123,6 +125,22 @@ const useStyles = makeStyles((theme: Theme) =>
     list: {
       width: SIDEBAR_WIDTH,
       padding: "1rem",
+      borderTop: "1px solid rgba(0, 0, 0, 0.1)",
+    },
+    header: {
+      textAlign: "left",
+      height: "calc(40px + 2rem)",
+      padding: "1rem",
+      display: "flex",
+    },
+    logo: {
+      width: "40px",
+      height: "40px",
+    },
+    text: {
+      width: "auto",
+      height: "40px",
+      margin: "0 1rem",
     },
   })
 );
@@ -150,7 +168,7 @@ export const Sidebar = () => {
   );
 
   useEffect(() => {
-    if (map) {
+    if (map && pickedLocation) {
       const features = geoJsons.places.features.filter((feature: any) => {
         const distance = turf.distance(
           feature.geometry.coordinates,
@@ -282,6 +300,12 @@ export const Sidebar = () => {
         dispatch(closeSidebar());
       }}
     >
+      <div className={classes.header}>
+        <Logo className={classes.logo} />
+
+        <Text className={classes.text} />
+      </div>
+
       <div className={classes.list} role="presentation">
         <Typography variant="h6" gutterBottom>
           Type
