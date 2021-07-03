@@ -18,7 +18,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardHeader from "@material-ui/core/CardHeader";
-import { green, red } from "@material-ui/core/colors";
+import { green, red, blue } from "@material-ui/core/colors";
 
 import { StateContext } from "../State";
 import { useMap } from "../../hooks/useMap";
@@ -67,6 +67,9 @@ const useStyles = makeStyles((theme: Theme) =>
     open: {
       color: green[600],
       float: "right",
+    },
+    link: {
+      color: blue[600],
     },
   })
 );
@@ -122,7 +125,14 @@ export const MapContainer = (props: Props) => {
           className={classes.media}
         />
 
-        <CardHeader title={properties.name} />
+        <a
+          className={classes.link}
+          href={properties.url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <CardHeader title={properties.name} />
+        </a>
 
         <CardContent className={classes.content}>
           <TableContainer>
