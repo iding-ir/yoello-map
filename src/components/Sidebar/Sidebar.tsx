@@ -13,16 +13,13 @@ import Slider from "@material-ui/core/Slider";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControl from "@material-ui/core/FormControl";
-import FormLabel from "@material-ui/core/FormLabel";
 import * as turf from "@turf/turf";
 
 import { IState } from "../../reducers";
 import { closeSidebar } from "../../actions/sidebar";
 import { SIDEBAR_WIDTH } from "../../constants";
 import { StateContext } from "../../components/State";
-import { LngLatLike } from "mapbox-gl";
 import { renderGeoJsons } from "../../modules/renderGeoJsons";
-import { ReactComponent as Logo } from "../../assets/images/yoello-logo.svg";
 import { ReactComponent as Text } from "../../assets/images/yoello-text.svg";
 import { SnackbarContext } from "../Snackbar/SnackbarProvider";
 
@@ -143,14 +140,9 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: "1rem",
       display: "flex",
     },
-    logo: {
-      width: "40px",
-      height: "40px",
-    },
     text: {
       width: "auto",
       height: "40px",
-      margin: "0 1rem",
     },
     sidebar: {
       "&>*": {
@@ -182,10 +174,10 @@ export const Sidebar = () => {
   const [distanceState, setDistanceState] = useState<number | number[]>(
     iDistance
   );
-  const [stateState, setStateState] = React.useState<string>(iState);
+  const [statusState, setStatusState] = React.useState<string>(iState);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setStateState((event.target as HTMLInputElement).value);
+    setStatusState((event.target as HTMLInputElement).value);
   };
 
   useEffect(() => {
@@ -227,11 +219,11 @@ export const Sidebar = () => {
 
       let filterState: any[] = [];
 
-      if (stateState === "open") {
+      if (statusState === "open") {
         filterState = ["==", ["get", "open"], true];
-      } else if (stateState === "closed") {
+      } else if (statusState === "closed") {
         filterState = ["==", ["get", "open"], false];
-      } else if (stateState === "all") {
+      } else if (statusState === "all") {
         filterState = ["all"];
       }
 
@@ -249,7 +241,7 @@ export const Sidebar = () => {
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [typeState, menuState, distanceState, stateState, pickedLocation]);
+  }, [typeState, menuState, distanceState, statusState, pickedLocation]);
 
   const renderTypes = () => {
     return (
@@ -331,13 +323,13 @@ export const Sidebar = () => {
     );
   };
 
-  const renderStates = () => {
+  const renderStatuses = () => {
     return (
       <FormControl component="fieldset">
         <RadioGroup
           aria-label="gender"
           name="gender1"
-          value={stateState}
+          value={statusState}
           onChange={handleChange}
           className={classes.radios}
         >
@@ -361,8 +353,6 @@ export const Sidebar = () => {
       }}
     >
       <div className={classes.header}>
-        <Logo className={classes.logo} />
-
         <Text className={classes.text} />
       </div>
 
@@ -392,10 +382,10 @@ export const Sidebar = () => {
 
       <div className={classes.list} role="presentation">
         <Typography variant="h6" gutterBottom>
-          State
+          Status
         </Typography>
 
-        {renderStates()}
+        {renderStatuses()}
       </div>
     </Drawer>
   );

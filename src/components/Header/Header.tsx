@@ -3,11 +3,10 @@ import { useDispatch } from "react-redux";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useTranslation } from "react-i18next";
-import { ReactComponent as Logo } from "../../assets/images/yoello-logo.svg";
+import { ReactComponent as Text } from "../../assets/images/yoello-text.svg";
 
 import { openSidebar } from "../../actions/sidebar";
 
@@ -19,8 +18,8 @@ const useStyles = makeStyles((theme: Theme) =>
     title: {
       flexGrow: 1,
     },
-    logo: {
-      width: "40px",
+    text: {
+      width: "auto",
       height: "40px",
     },
   })
@@ -50,7 +49,7 @@ export const Header = () => {
           <MenuIcon />
         </IconButton>
 
-        <Logo className={classes.logo} />
+        <Text className={classes.text} />
       </Toolbar>
     </AppBar>
   );
