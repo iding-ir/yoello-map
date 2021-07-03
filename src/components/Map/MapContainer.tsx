@@ -25,6 +25,7 @@ import { usePopup } from "../../hooks/usePopup";
 import { getLocation } from "../../utils/getLocation";
 import { setCurrentLocation } from "../../actions/location";
 import { SnackbarContext } from "../Snackbar/SnackbarProvider";
+import { toTitleCase } from "../../utils/toTitleCase";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -124,11 +125,13 @@ export const MapContainer = (props: Props) => {
               </TableHead>
 
               <TableBody>
-                {JSON.parse(properties.menu).map((item: string) => (
-                  <StyledTableRow key={item}>
-                    <StyledTableCell align="left">{item}</StyledTableCell>
-                  </StyledTableRow>
-                ))}
+                <StyledTableRow>
+                  <StyledTableCell align="left">
+                    {JSON.parse(properties.menu)
+                      .map((item: string) => toTitleCase(item))
+                      .join(", ")}
+                  </StyledTableCell>
+                </StyledTableRow>
               </TableBody>
             </Table>
           </TableContainer>
