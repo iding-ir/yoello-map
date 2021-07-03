@@ -142,6 +142,11 @@ const useStyles = makeStyles((theme: Theme) =>
       height: "40px",
       margin: "0 1rem",
     },
+    sidebar: {
+      "&>*": {
+        overflowX: "hidden",
+      },
+    },
   })
 );
 
@@ -296,6 +301,7 @@ export const Sidebar = () => {
     <Drawer
       anchor="left"
       open={open}
+      className={classes.sidebar}
       onClose={() => {
         dispatch(closeSidebar());
       }}
