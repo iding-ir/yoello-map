@@ -18,6 +18,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardHeader from "@material-ui/core/CardHeader";
+import { green, red } from "@material-ui/core/colors";
 
 import { StateContext } from "../State";
 import { useMap } from "../../hooks/useMap";
@@ -58,6 +59,14 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     expandOpen: {
       transform: "rotate(180deg)",
+    },
+    closed: {
+      color: red[600],
+      float: "right",
+    },
+    open: {
+      color: green[600],
+      float: "right",
     },
   })
 );
@@ -120,7 +129,15 @@ export const MapContainer = (props: Props) => {
             <Table className={classes.table} aria-label={properties.name}>
               <TableHead>
                 <StyledTableRow>
-                  <StyledTableCell>Menu</StyledTableCell>
+                  <StyledTableCell>
+                    <span>Menu</span>
+
+                    {properties.open ? (
+                      <span className={classes.open}>Open</span>
+                    ) : (
+                      <span className={classes.closed}>Closed</span>
+                    )}
+                  </StyledTableCell>
                 </StyledTableRow>
               </TableHead>
 
