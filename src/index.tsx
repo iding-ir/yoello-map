@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import { ThemeProvider } from "@material-ui/core";
 
 import "./index.css";
 import "./localization";
@@ -9,17 +10,20 @@ import store from "./stores";
 import { App } from "./components/App";
 import { StateProvider } from "./components/State";
 import { SnackbarProvider } from "./components/Snackbar";
+import { theme } from "./themes";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <StateProvider>
-        <SnackbarProvider>
-          <CssBaseline />
+        <ThemeProvider theme={theme}>
+          <SnackbarProvider>
+            <CssBaseline />
 
-          <App />
-        </SnackbarProvider>
+            <App />
+          </SnackbarProvider>
+        </ThemeProvider>
       </StateProvider>
     </Provider>
   </React.StrictMode>,
