@@ -24,6 +24,7 @@ import { LngLatLike } from "mapbox-gl";
 import { renderGeoJsons } from "../../modules/renderGeoJsons";
 import { ReactComponent as Logo } from "../../assets/images/yoello-logo.svg";
 import { ReactComponent as Text } from "../../assets/images/yoello-text.svg";
+import { SnackbarContext } from "../Snackbar/SnackbarProvider";
 
 interface Type {
   key: string;
@@ -172,6 +173,7 @@ export const Sidebar = () => {
   ) as any;
 
   const { state, setState } = useContext(StateContext);
+  const { setSnackbar } = useContext(SnackbarContext);
 
   const { map, geoJsons } = state;
 
@@ -238,6 +240,12 @@ export const Sidebar = () => {
       const filters = ["all", filterType, filterMenu, filterState];
 
       map.setFilter("point-symbol-places", filters);
+    } else {
+      setSnackbar({
+        type: "error",
+        message:
+          "First choose a location by dragging the map and tapping on the red marker",
+      });
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
