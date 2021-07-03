@@ -8,7 +8,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "bar",
-        "menu": ["burger", "wine", "water"]
+        "menu": ["burger", "wine", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -22,7 +23,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "cafe",
-        "menu": ["pizza", "beer", "coke"]
+        "menu": ["pizza", "beer", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +38,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "pasta"]
+        "menu": ["sushi", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -50,7 +53,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "hotel",
-        "menu": ["burger", "water"]
+        "menu": ["burger", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -64,7 +68,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "pub",
-        "menu": ["kebab", "pasta", "wine", "beer"]
+        "menu": ["kebab", "pasta", "wine", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -78,7 +83,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "bar",
-        "menu": ["pizza", "beer", "coke"]
+        "menu": ["pizza", "beer", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +98,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "pub",
-        "menu": ["sushi", "pasta"]
+        "menu": ["sushi", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -106,7 +113,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "cafe",
-        "menu": ["burger", "beer", "coke"]
+        "menu": ["burger", "beer", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -120,7 +128,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "hotel",
-        "menu": ["pizza"]
+        "menu": ["pizza"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -134,7 +143,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "wine", "water"]
+        "menu": ["kebab", "wine", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +158,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "hotel",
-        "menu": ["sushi", "beer", "coke"]
+        "menu": ["sushi", "beer", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -162,7 +173,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "cafe",
-        "menu": ["kebab", "pasta"]
+        "menu": ["kebab", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +188,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "pub",
-        "menu": ["pizza", "coke"]
+        "menu": ["pizza", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +203,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "pub",
-        "menu": ["burger", "wine", "water"]
+        "menu": ["burger", "wine", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -204,7 +218,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "cafe",
-        "menu": ["kebab", "beer"]
+        "menu": ["kebab", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -218,7 +233,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "pasta", "coke"]
+        "menu": ["sushi", "pasta", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +248,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "restaurant",
-        "menu": ["pizza"]
+        "menu": ["pizza"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +263,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "hotel",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -260,7 +278,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "cafe",
-        "menu": ["kebab", "wine", "beer", "water"]
+        "menu": ["kebab", "wine", "beer", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -274,7 +293,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "pub",
-        "menu": ["pizza", "coke"]
+        "menu": ["pizza", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +308,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "pasta"]
+        "menu": ["sushi", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -302,7 +323,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "hotel",
-        "menu": ["kebab", "beer"]
+        "menu": ["kebab", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -316,7 +338,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "restaurant",
-        "menu": ["burger", "water"]
+        "menu": ["burger", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -330,7 +353,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "pub",
-        "menu": ["burger", "pasta"]
+        "menu": ["burger", "pasta"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +368,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "wine", "coke"]
+        "menu": ["sushi", "wine", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -358,7 +383,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "hotel",
-        "menu": ["pizza"]
+        "menu": ["pizza"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -372,7 +398,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "cafe",
-        "menu": ["kebab", "beer", "water"]
+        "menu": ["kebab", "beer", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +413,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -400,7 +428,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "wine", "beer"]
+        "menu": ["pizza", "wine", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -414,7 +443,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "cafe",
-        "menu": ["sushi", "pasta", "water"]
+        "menu": ["sushi", "pasta", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -428,7 +458,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "pub",
-        "menu": ["kebab", "coke"]
+        "menu": ["kebab", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -442,7 +473,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "hotel",
-        "menu": ["kebab", "beer"]
+        "menu": ["kebab", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -456,7 +488,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "restaurant",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -470,7 +503,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "pub",
-        "menu": ["pizza", "beer"]
+        "menu": ["pizza", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +518,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "wine", "water"]
+        "menu": ["sushi", "wine", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -498,7 +533,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "cafe",
-        "menu": ["kebab", "coke"]
+        "menu": ["kebab", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -512,7 +548,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "pasta", "beer"]
+        "menu": ["kebab", "pasta", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -526,7 +563,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "hotel",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -540,7 +578,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "water", "coke"]
+        "menu": ["sushi", "water", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -554,7 +593,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "pub",
-        "menu": ["pizza", "wine"]
+        "menu": ["pizza", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -568,7 +608,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "restaurant",
-        "menu": ["burger", "water"]
+        "menu": ["burger", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +623,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "cafe",
-        "menu": ["sushi", "pasta"]
+        "menu": ["sushi", "pasta"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -596,7 +638,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "hotel",
-        "menu": ["burger", "beer"]
+        "menu": ["burger", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -610,7 +653,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "pub",
-        "menu": ["pizza", "water"]
+        "menu": ["pizza", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -624,7 +668,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "restaurant",
-        "menu": ["burger", "wine", "beer"]
+        "menu": ["burger", "wine", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -638,7 +683,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "coke"]
+        "menu": ["pizza", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -652,7 +698,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "pub",
-        "menu": ["burger", "water"]
+        "menu": ["burger", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -666,7 +713,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "cafe",
-        "menu": ["sushi", "coke"]
+        "menu": ["sushi", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -680,7 +728,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "hotel",
-        "menu": ["pizza", "pasta"]
+        "menu": ["pizza", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -694,7 +743,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "restaurant",
-        "menu": ["burger", "wine", "beer"]
+        "menu": ["burger", "wine", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -708,7 +758,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "pub",
-        "menu": ["pizza", "coke"]
+        "menu": ["pizza", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -722,7 +773,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "wine"]
+        "menu": ["sushi", "wine"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -736,7 +788,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "cafe",
-        "menu": ["sushi", "water"]
+        "menu": ["sushi", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -750,7 +803,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "pasta"]
+        "menu": ["pizza", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -764,7 +818,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "hotel",
-        "menu": ["burger", "wine"]
+        "menu": ["burger", "wine"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -778,7 +833,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "pub",
-        "menu": ["sushi", "beer"]
+        "menu": ["sushi", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -792,7 +848,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "bar",
-        "menu": ["burger", "pasta"]
+        "menu": ["burger", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -806,7 +863,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "water"]
+        "menu": ["pizza", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -820,7 +878,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "bar",
-        "menu": ["sushi", "kebab", "coke"]
+        "menu": ["sushi", "kebab", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -834,7 +893,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "hotel",
-        "menu": ["burger", "beer"]
+        "menu": ["burger", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -848,7 +908,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "wine"]
+        "menu": ["pizza", "wine"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -862,7 +923,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "cafe",
-        "menu": ["sushi", "beer", "coke"]
+        "menu": ["sushi", "beer", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -876,7 +938,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "bar",
-        "menu": ["kebab", "coke"]
+        "menu": ["kebab", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -890,7 +953,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "beer"]
+        "menu": ["kebab", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -904,7 +968,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "pasta", "water"]
+        "menu": ["pizza", "pasta", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -918,7 +983,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "cafe",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -932,7 +998,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "hotel",
-        "menu": ["sushi", "wine"]
+        "menu": ["sushi", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -946,7 +1013,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "pub",
-        "menu": ["sushi", "water"]
+        "menu": ["sushi", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -960,7 +1028,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "bar",
-        "menu": ["burger", "pasta"]
+        "menu": ["burger", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -974,7 +1043,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "cafe",
-        "menu": ["pizza", "water"]
+        "menu": ["pizza", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -988,7 +1058,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "wine", "beer", "coke"]
+        "menu": ["kebab", "wine", "beer", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1002,7 +1073,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "pub",
-        "menu": ["sushi", "coke"]
+        "menu": ["sushi", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1016,7 +1088,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "hotel",
-        "menu": ["kebab", "water"]
+        "menu": ["kebab", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1030,7 +1103,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "beer"]
+        "menu": ["sushi", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1044,7 +1118,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "bar",
-        "menu": ["kebab", "pasta", "wine"]
+        "menu": ["kebab", "pasta", "wine"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1058,7 +1133,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "water"]
+        "menu": ["kebab", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1072,7 +1148,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "wine"]
+        "menu": ["pizza", "wine"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1086,7 +1163,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "bar",
-        "menu": ["kebab", "beer"]
+        "menu": ["kebab", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1100,7 +1178,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "hotel",
-        "menu": ["sushi", "beer"]
+        "menu": ["sushi", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1114,7 +1193,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "cafe",
-        "menu": ["burger", "water"]
+        "menu": ["burger", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1128,7 +1208,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "coke"]
+        "menu": ["pizza", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1142,7 +1223,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "pub",
-        "menu": ["kebab", "wine", "beer", "water"]
+        "menu": ["kebab", "wine", "beer", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1156,7 +1238,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "pasta"]
+        "menu": ["kebab", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1170,7 +1253,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "hotel",
-        "menu": ["sushi", "wine"]
+        "menu": ["sushi", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1184,7 +1268,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "bar",
-        "menu": ["pizza", "coke"]
+        "menu": ["pizza", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1198,7 +1283,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "cafe",
-        "menu": ["kebab", "wine"]
+        "menu": ["kebab", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1212,7 +1298,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "restaurant",
-        "menu": ["burger", "water"]
+        "menu": ["burger", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1226,7 +1313,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "beer"]
+        "menu": ["pizza", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1240,7 +1328,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "bar",
-        "menu": ["sushi", "pasta"]
+        "menu": ["sushi", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1254,7 +1343,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "restaurant",
-        "menu": ["burger", "beer"]
+        "menu": ["burger", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1268,7 +1358,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["burger", "wine"]
+        "menu": ["burger", "wine"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1282,7 +1373,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "hotel",
-        "menu": ["kebab", "coke"]
+        "menu": ["kebab", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1296,7 +1388,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "cafe",
-        "menu": ["kebab", "beer", "water"]
+        "menu": ["kebab", "beer", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1310,7 +1403,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "pub",
-        "menu": ["sushi", "beer"]
+        "menu": ["sushi", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1324,7 +1418,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "bar",
-        "menu": ["pizza", "pasta", "wine"]
+        "menu": ["pizza", "pasta", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1338,7 +1433,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "restaurant",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1352,7 +1448,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "restaurant",
-        "menu": ["kebab", "water", "coke"]
+        "menu": ["kebab", "water", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1366,7 +1463,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "pub",
-        "menu": ["kebab", "wine"]
+        "menu": ["kebab", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1380,7 +1478,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "cafe",
-        "menu": ["kebab", "coke"]
+        "menu": ["kebab", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1394,7 +1493,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "hotel",
-        "menu": ["pizza", "beer"]
+        "menu": ["pizza", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1408,7 +1508,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "restaurant",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1422,7 +1523,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "pub",
-        "menu": ["sushi", "wine", "water"]
+        "menu": ["sushi", "wine", "water"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1436,7 +1538,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "hotel",
-        "menu": ["kebab", "pasta"]
+        "menu": ["kebab", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1450,7 +1553,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "cafe",
-        "menu": ["burger", "beer"]
+        "menu": ["burger", "beer"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1464,7 +1568,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "pub",
-        "menu": ["pizza", "wine"]
+        "menu": ["pizza", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1478,7 +1583,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "bar",
-        "menu": ["sushi", "water"]
+        "menu": ["sushi", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1492,7 +1598,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/08.jpg",
         "type": "pub",
-        "menu": ["burger", "beer"]
+        "menu": ["burger", "beer"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1506,7 +1613,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/09.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "pasta"]
+        "menu": ["pizza", "pasta"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1520,7 +1628,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/01.jpg",
         "type": "restaurant",
-        "menu": ["sushi", "wine", "water"]
+        "menu": ["sushi", "wine", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1534,7 +1643,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/02.jpg",
         "type": "pub",
-        "menu": ["burger", "coke"]
+        "menu": ["burger", "coke"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1548,7 +1658,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/03.jpg",
         "type": "bar",
-        "menu": ["kebab"]
+        "menu": ["kebab"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1562,7 +1673,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/04.jpg",
         "type": "cafe",
-        "menu": ["pizza"]
+        "menu": ["pizza"],
+        "open": false
       },
       "geometry": {
         "type": "Point",
@@ -1576,7 +1688,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/05.jpg",
         "type": "hotel",
-        "menu": ["sushi", "pasta", "wine"]
+        "menu": ["sushi", "pasta", "wine"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1590,7 +1703,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/06.jpg",
         "type": "restaurant",
-        "menu": ["pizza", "beer", "water"]
+        "menu": ["pizza", "beer", "water"],
+        "open": true
       },
       "geometry": {
         "type": "Point",
@@ -1604,7 +1718,8 @@
         "url": "https://dev-pay-lrk0i9.yoello.com/v/ten-mill-lane/menu",
         "image": "/assets/images/points/07.jpg",
         "type": "cafe",
-        "menu": ["burger", "pizza"]
+        "menu": ["burger", "pizza"],
+        "open": true
       },
       "geometry": {
         "type": "Point",

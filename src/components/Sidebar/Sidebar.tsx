@@ -10,6 +10,10 @@ import Typography from "@material-ui/core/Typography";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import TextField from "@material-ui/core/TextField";
 import Slider from "@material-ui/core/Slider";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import FormControl from "@material-ui/core/FormControl";
+import FormLabel from "@material-ui/core/FormLabel";
 import * as turf from "@turf/turf";
 
 import { IState } from "../../reducers";
@@ -113,6 +117,7 @@ const iMenu = menus.reduce((total: any, menu: Menu) => {
 }, {});
 
 const iDistance = 4000;
+const iState = "all";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -126,6 +131,10 @@ const useStyles = makeStyles((theme: Theme) =>
       width: SIDEBAR_WIDTH,
       padding: "1rem",
       borderTop: "1px solid rgba(0, 0, 0, 0.1)",
+    },
+    radios: {
+      display: "flex",
+      flexDirection: "row",
     },
     header: {
       textAlign: "left",
@@ -171,6 +180,11 @@ export const Sidebar = () => {
   const [distanceState, setDistanceState] = useState<number | number[]>(
     iDistance
   );
+  const [stateState, setStateState] = React.useState<string>(iState);
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setStateState((event.target as HTMLInputElement).value);
+  };
 
   useEffect(() => {
     if (map && pickedLocation) {
@@ -209,13 +223,25 @@ export const Sidebar = () => {
         ["all"]
       );
 
-      const filters = ["all", filterType, filterMenu];
+      let filterState: any[] = [];
+
+      if (stateState === "open") {
+        filterState = ["==", ["get", "open"], true];
+      } else if (stateState === "closed") {
+        filterState = ["==", ["get", "open"], false];
+      } else if (stateState === "all") {
+        filterState = ["all"];
+      }
+
+      console.log(filterState);
+
+      const filters = ["all", filterType, filterMenu, filterState];
 
       map.setFilter("point-symbol-places", filters);
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [typeState, menuState, distanceState, pickedLocation]);
+  }, [typeState, menuState, distanceState, stateState, pickedLocation]);
 
   const renderTypes = () => {
     return (
@@ -297,6 +323,26 @@ export const Sidebar = () => {
     );
   };
 
+  const renderStates = () => {
+    return (
+      <FormControl component="fieldset">
+        <RadioGroup
+          aria-label="gender"
+          name="gender1"
+          value={stateState}
+          onChange={handleChange}
+          className={classes.radios}
+        >
+          <FormControlLabel value="open" control={<Radio />} label="Open" />
+
+          <FormControlLabel value="closed" control={<Radio />} label="Closed" />
+
+          <FormControlLabel value="all" control={<Radio />} label="All" />
+        </RadioGroup>
+      </FormControl>
+    );
+  };
+
   return (
     <Drawer
       anchor="left"
@@ -334,6 +380,14 @@ export const Sidebar = () => {
         </Typography>
 
         {renderMenus()}
+      </div>
+
+      <div className={classes.list} role="presentation">
+        <Typography variant="h6" gutterBottom>
+          State
+        </Typography>
+
+        {renderStates()}
       </div>
     </Drawer>
   );
